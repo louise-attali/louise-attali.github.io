@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-color: rgb(240, 241, 244);
+    font-family: "Proza Libre", sans-serif;
+}
+
+ul {
+    list-style-position: inside;
+}
+h2 {
+    letter-spacing: 0.4px;
+    font-weight: 550;
+    color: #2b48ea;
+}
+
+.topic {
+    font-family: "Abel", sans-serif;
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+    margin: 30px auto;
+    width: 70%;
+    padding: 10px;
+    background-color: rgba(254, 222, 255, 0.4);
+    box-shadow: 0px 0px 6px rgba(138, 43, 226, 0.3);
+    max-width: 600px;
+}
+
+#modern-essec {
+    background-color: #bda9cf;
+    color: white;
+    padding: 20px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+#modern-essec:hover {
+    background-color: #9352b5;
+    cursor: pointer
+}
+
+#photo-Louise {
+    width:30%;
+    /* max-width: 480px; */
+    margin-top: -15px;
+    transition: 2s;
+
+}
+
+#flip-all {
+    transition: 1.5s;
+}
+.rotate {
+    transform: rotate(360deg);
+
+}
+
+#linkedin, #insta, #twitter {
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    transition: color 0s, color 0.5s 1s;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+#linkedin:hover {
+    color: rgb(0, 85, 164);
+    transition: color 0s;
+}
+#insta:hover {
+    color: white;
+    transition: color 0s;
+}
+#twitter:hover {
+    color: rgb(239, 65, 53);
+    transition: color 0s;
+}
