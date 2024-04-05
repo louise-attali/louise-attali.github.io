@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Proza+Libre&family=Poppins&display=swap");
+
+
+@import url("components/profile.css");
+/* @import url("components/destinations.css"); */
+
+
+h1 {
+    font-family: "Abel", sans-serif;
+}
+
+ul {
+    list-style-position: inside;
+}
+h2 {
+    letter-spacing: 0.4px;
+    font-weight: 550;
+    color: #2b48ea;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(240, 241, 244);
+    font-family: "Proza Libre", sans-serif;
+}

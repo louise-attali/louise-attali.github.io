@@ -1,20 +1,5 @@
-body {
-    text-align: center;
-    background-color: rgb(240, 241, 244);
-    font-family: "Proza Libre", sans-serif;
-}
-
-ul {
-    list-style-position: inside;
-}
-h2 {
-    letter-spacing: 0.4px;
-    font-weight: 550;
-    color: #2b48ea;
-}
-
 .topic {
-    font-family: "Abel", sans-serif;
+    /* font-family: "Abel", sans-serif; */
     /* border: 2px solid gray; */
     border-radius: 5px;
     margin: 30px auto;
@@ -25,7 +10,7 @@ h2 {
     max-width: 600px;
 }
 
-#modern-essec {
+#modern-trips {
     background-color: #bda9cf;
     color: white;
     padding: 20px 20px;
@@ -37,7 +22,7 @@ h2 {
     border: none;
 }
 
-#modern-essec:hover {
+#modern-trips:hover {
     background-color: #9352b5;
     cursor: pointer
 }
